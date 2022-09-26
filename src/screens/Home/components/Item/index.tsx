@@ -1,13 +1,9 @@
-import { Pressable, Text, View } from "react-native";
-import { IngredientSummaryItemProps } from "./interface";
-import Styles from "./styles";
+import { View } from "react-native"
 
-const IngredientSummaryItem = ({ ingredient, onItemSelected }: IngredientSummaryItemProps) => {
+const IngredientSummaryItem = () => {
 
     return (
-        <Pressable style={Styles.container} onPress={() => onItemSelected(ingredient.id)}>
-           <Text style={Styles.text}>{ingredient.name}</Text>
-        </Pressable>
+        <View></View>
     )
 }
 
